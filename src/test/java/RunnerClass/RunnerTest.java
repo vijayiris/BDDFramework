@@ -5,10 +5,13 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		tags="@new",
+		
 		features= {"src/test/resources/Features"},
 		glue= {"StepDefinations"},
-		plugin= {"pretty", "html:target/htmlreport.html"}
+		plugin= {"pretty", "html:target/htmlreport.html"},
+		dryRun = false,
+		tags= "@smoke" 
+		
 )
 public class RunnerTest  extends AbstractTestNGCucumberTests{
 

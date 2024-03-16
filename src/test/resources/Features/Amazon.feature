@@ -1,6 +1,6 @@
 Feature: Launching Amazon Application
 
-@new
+@smoke
 Scenario: Launch Amazon Application
 Given User Hit Amazon Url
 Then Amazon Application is Open

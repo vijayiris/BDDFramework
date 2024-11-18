@@ -11,6 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 		plugin= {"pretty", "html:target/htmlreport.html"},
 		dryRun = false,
 		tags= "@smoke77" 
+
+
 		
 )
 public class RunnerTest  extends AbstractTestNGCucumberTests{

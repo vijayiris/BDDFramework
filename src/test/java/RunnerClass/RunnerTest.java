@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue= {"StepDefinations"},
 		plugin= {"pretty", "html:target/htmlreport.html"},
 		dryRun = false,
-		tags= "@regression" 
+		tags= "@regression_new" 
 		
 )
 public class RunnerTest  extends AbstractTestNGCucumberTests{

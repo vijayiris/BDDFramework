@@ -75,6 +75,12 @@ public class POLaunchingAmazonApp {
 	public void user_verifies_the_home_page() {
 		System.out.println("User is on Home Page after login");  
 	}
+
+	public void user_close_the_browser() {
+      driver.quit();
+	}
+
+
 	
 
 }

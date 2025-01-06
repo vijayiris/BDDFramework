@@ -12,3 +12,4 @@ Scenario: Login into Amazon
 Then User Enters LoginID
 Then User Enters Password
 Then User verifies the Home Page
+  Then User close the browser

@@ -47,4 +47,9 @@ public class StepDefinations{
 		launchAmazonAppObj.user_verifies_the_home_page();
 	}
 
+	@Then("User close the browser")
+	public void user_close_the_browser() {
+		launchAmazonAppObj.user_close_the_browser();
+	}
+
 }

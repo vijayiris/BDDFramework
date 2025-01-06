@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue= {"StepDefinations"},
 		plugin= {"pretty", "html:target/htmlreport.html"},
 		dryRun = false,
-		tags= "@smoke77" 
+		tags= "@smoke"
 
 
 		
